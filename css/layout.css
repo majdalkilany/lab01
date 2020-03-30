@@ -1,0 +1,145 @@
+body{
+    height: 760px;
+    width: 960px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+
+
+}
+#a{
+    width: 960px;
+
+    height: 100px;
+}
+#b{
+    height: 600px;
+    width: 200px;
+    float: left;
+}
+#c{
+    height: 200px;
+    width: 380px;
+    float: right;
+}
+#d {
+    height: 200px;
+    width: 380px;
+    float: right;
+
+}
+#e{
+    height: 250px;
+    width: 190px;
+    margin: 0px;
+    padding: 0;
+    float: right;
+}
+#f{
+    height: 250px;
+    width: 190px;
+    float: right;
+}
+#g{
+    height: 250px;
+    width: 190px;
+    float: right;
+
+}
+
+#h{
+    height: 250px;
+    width: 190px;
+    float: right;
+
+}
+#i{
+    height: 150px;
+    width: 760px;
+    float: right;
+}
+.centered{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
+}
+.size{
+    float: left;
+}
+
+@media screen and (max-width:768px) {
+    .small{
+            
+        height: 760px;
+        width: 480px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -40%);
+        text-align: center;
+        /* padding-left: 25%;     */
+    }
+    #j{
+        width: 480px;
+    
+        height: 75px;
+    }
+    #k{
+        width: 480px;
+        height: 150px;
+    }
+    #l{
+        width: 480px;
+        height: 125px;
+    }
+    #m {
+        width: 480px;
+        height: 150px;
+        float: left;
+    }
+    #n{
+        height: 250px;
+        width: 240px;
+        float: left;
+
+    }
+    #o{
+        height: 250px;
+        width: 240px;
+        float: right;
+    }
+    #p{
+        height: 250px;
+        width: 240px;
+         float: left; 
+    
+    }
+    #q{
+        height: 250px;
+        width: 240px;
+        float: left;
+    
+    }
+    #r{
+        height: 80px;
+        width: 480px;
+        float: right;
+    }
+    .centered{
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      
+    }
+    .size{
+        float: left;
+    }
+
+}
