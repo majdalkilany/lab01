@@ -1,0 +1,28 @@
+@media screen and (min-width:769px) {
+    .small{
+        display: none;
+    }
+
+
+  }
+
+    * {
+        /* text-align: center; */
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        border: 1px; 
+        border-bottom: none;
+        }
+        @media screen and (max-width:768px) {
+            * {
+                /* text-align: center; */
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+                border: 1px;
+                }
+                .big{
+                    display: none;
+                }
+            }
